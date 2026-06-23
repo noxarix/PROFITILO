@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marine - Portfolio Website</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome link with angular brackets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <!-- Navigation Menu -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                <a href="#home">
+                    <img src="favicon.png" alt="Marine" style="height: 72px; width: auto; vertical-align: middle; filter: drop-shadow(0 0 10px #b74b4b);">
+                </a>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a
+                        href="#home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a
+                        href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a
+                        href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a
+                        href="#projects">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a
+                        href="#contact">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="profile.jpg" alt="Marine">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Marine</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm a <span
+                        class="typewriter-text"></span><label for="">|</label></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">I'm an aspiring student developer
+                    passionate about turning ideas into reality. I enjoy exploring new technologies, solving problems,
+                    and creating tools that make learning and connecting easier.</p>
+                <div class="social-links">
+                    <a href="https://github.com/WHITEDEVIL3112" target="_blank" data-aos="fade-up"
+                        data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://instagram.com/_nox_shadowx" target="_blank" data-aos="fade-up"
+                        data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://t.me/nox_shadowx" target="_blank" data-aos="fade-up" data-aos-duration="1500"
+                        data-aos-delay="1500"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://x.com/nox_shadowx" target="_blank" data-aos="fade-up" data-aos-duration="1500"
+                        data-aos-delay="1600"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <button onclick="window.location.href='#about'">About Me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="scroll-indicator">
+        <a href="#about">⌵<br>⌵</a>
+    </div>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500">
+                <span>About Me</span>
+            </div>
+            <div class="about-details">
+                <div class="left" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
+                    <img src="profile.jpg" alt="Marine">
+                </div>
+                <div class="right">
+                    <div class="topic" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">Turning Ideas
+                        Into Reality</div>
+                    <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">My name is Huzaif Shaikh, but
+                        in the world of technology, I go by Marine. I'm an aspiring student developer driven by
+                        curiosity and the desire to create. What began as a simple interest in technology gradually grew
+                        into a passion for building things, learning new skills, and challenging myself with new ideas.
+
+                        What excites me most isn't just writing code—it's the process of solving problems, discovering
+                        new possibilities, and turning imagination into reality. Every challenge teaches me something
+                        valuable, every project helps me grow, and every success reminds me why I enjoy what I do. I'm
+                        constantly learning, constantly improving, and always looking forward to creating something
+                        better than I did yesterday.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="scroll-indicator">
+        <a href="#skills">⌵<br>⌵</a>
+    </div>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500">
+                <span>My Skills</span>
+            </div>
+            <div class="skills-details">
+                <div class="text">
+                    <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Growing
+                        Through Every Project</div>
+                    <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Skills are developed through
+                        curiosity, practice, and the willingness to keep learning. Every project brings new challenges
+                        and opportunities to grow, turning ideas into experience and knowledge into creation. With each
+                        project, new lessons are learned, new skills are gained, and the passion for building continues
+                        to grow.
+                    </p>
+                    <div class="experience" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                        <div class="num">∞</div>
+                        <div class="exp">Learning & <br> Building</div>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                        <div class="topic">Python</div>
+                        <div class="per">85%</div>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                        <div class="topic">Web & Bot Development</div>
+                        <div class="per">80%</div>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                        <div class="topic">HTML/CSS</div>
+                        <div class="per">70%</div>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">
+                        <div class="topic">JavaScript</div>
+                        <div class="per">60%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="scroll-indicator">
+        <a href="#projects">⌵<br>⌵</a>
+    </div>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500">
+                <span>Things I've Built</span>
+            </div>
+            <div class="boxes">
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <div class="icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="topic">Marine's World</div>
+                    <p>My first portfolio website, created to showcase my journey as a developer, share my projects, and
+                        document my growth in technology.</p>
+                    <a href="https://marine.42web.io" target="_blank" class="project-btn">View Project</a>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                    <div class="icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="topic">Marine's Den</div>
+                    <p>An interactive Python learning platform designed to help beginners learn programming through
+                        structured lessons, practical examples, and hands-on learning resources.</p>
+                    <a href="https://marinesden.vercel.app" target="_blank" class="project-btn">View Project</a>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                    <div class="icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <div class="topic">Secret Chatroom</div>
+                    <p>A real-time chat platform built to connect users through simple and engaging conversations in a
+                        clean and interactive environment.</p>
+                    <a href="https://chatroom-secret.vercel.app" target="_blank" class="project-btn">View Project</a>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">
+                    <div class="icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <div class="topic">Chikoo Music Bot</div>
+                    <p>A Telegram music bot that allows users to search, stream, and enjoy music directly within
+                        Telegram with a smooth and user-friendly experience.</p>
+                    <a href="https://t.me/ChikooMusic_bot" target="_blank" class="project-btn">Open Bot</a>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1000">
+                    <div class="icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="topic">Python Hosting Platform</div>
+                    <p>A Telegram-based hosting solution designed to simplify the deployment and management of Python
+                        projects and automation tools.</p>
+                    <a href="https://t.me/Auto_spamrbot" target="_blank" class="project-btn">Open Bot</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="glowing-line" data-aos="fade-in" data-aos-duration="1500"></div>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500">
+                <span>Contact Me</span>
+            </div>
+            <div class="text" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="200">
+                <div class="topic">Let's Build Something Together</div>
+                <p>Have an idea, project, or just want to connect? Feel free to reach out. I'm always open to learning,
+                    collaborating, and exploring new opportunities.</p>
+                <div class="button">
+                    <button onclick="window.location.href='mailto:hujaifs31@gmail.com'">Send Email</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="text">
+            <span>Created By <a href="#">Marine</a> | &#169; 2026 All Rights Reserved</span>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ offset: 0 });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
