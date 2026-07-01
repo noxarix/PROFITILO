@@ -3,7 +3,6 @@
 [![Demo](https://img.shields.io/badge/demo-marinesprofile.vercel.app-blue?logo=vercel&logoColor=white)](https://marinesprofile.vercel.app)  [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)  [![Last commit](https://img.shields.io/github/last-commit/noxarix/PROFITILO)](https://github.com/noxarix/PROFITILO/commits)  [![Repo size](https://img.shields.io/github/repo-size/noxarix/PROFITILO)](https://github.com/noxarix/PROFITILO)
 
 <p align="center">
-  <!-- Hero image: I can upload the image you provided as `assets/hero.png`. Confirm below and I will commit it. -->
   <img src="assets/hero.png" alt="PROFITILO hero" width="900" style="border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,0.35)"/>
 </p>
 
@@ -62,7 +61,7 @@ And a small HTML snippet to use in `index.html`:
   <img src="assets/hero.png" alt="Marine — hero" class="hero-image" />
   <div>
     <p class="hero-subtitle">Hey I'm <strong>Marine</strong></p>
-    <h1 class="hero-title">I'm a <span class="chat-badge">ᴄʜᴀᴛ</span> STUDENT</h1>
+    <h1 class="hero-title">I'm a <span class="chat-badge">ᴄʜᴀᴛ</span> <span class="hero-accent">STUDENT</span></h1>
     <p style="color:var(--muted);max-width:520px">I'm an aspiring student developer passionate about turning ideas into reality. I enjoy exploring new technologies, solving problems, and creating tools that make learning and connecting easier.</p>
     <div style="margin-top:1.2rem">
       <a class="btn-primary" href="#about">About Me</a>
@@ -75,11 +74,22 @@ This produces a bold headline where the word ᴄʜᴀᴛ is highlighted with the
 
 ## 🖼 Screenshots
 
-The README references `assets/hero.png` — I can commit the image you just provided and save it as `assets/hero.png` so the README shows correctly. Confirm and I'll add the image now.
+The README references `assets/hero.png` — I can commit the image you provided and save it as `assets/hero.png` so the README shows correctly. If you'd like me to add optimized WebP versions I can do that too.
+
+## 🔗 Connect with me
+
+<p align="center">
+  <a href="mailto:mrchikoo31@gmail.com"><img src="https://img.shields.io/badge/Email-mrchikoo31@gmail.com-D14836?logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://x.com/nox_shadowx" style="margin-left:8px"><img src="https://img.shields.io/badge/X-@nox_shadowx-1DA1F2?logo=twitter&logoColor=white" alt="X / Twitter"></a>
+  <a href="https://instagram.com/_nox_shadowx" style="margin-left:8px"><img src="https://img.shields.io/badge/Instagram-@_nox_shadowx-E1306C?logo=instagram&logoColor=white" alt="Instagram"></a>
+  <a href="https://t.me/nox_shadowx" style="margin-left:8px"><img src="https://img.shields.io/badge/Telegram-@nox_shadowx-26A5E4?logo=telegram&logoColor=white" alt="Telegram"></a>
+</p>
+
+*(All usernames provided by the repository owner.)*
 
 ## 🤝 License
 
-I've added the MIT license to this repository to permit reuse while preserving credit. See `LICENSE` for details.
+This repository is licensed under the MIT License — see the `LICENSE` file for details.
 
 ## 📦 Local development
 
