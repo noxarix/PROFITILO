@@ -1,9 +1,9 @@
-# PROFITILO
+
 
 <div style="display:flex;align-items:center;gap:12px;">
   <img src="assets/hero.png" alt="Marine logo — red neon star with MARINE text" width="64" />
 </div>
-
+# PROFITILO
 ---
 
 A modern, stylish personal portfolio to showcase skills, projects, achievements, and the journey of an aspiring student developer.
