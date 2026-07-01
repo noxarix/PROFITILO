@@ -1,11 +1,9 @@
-# PROFITILO
-
 [![Demo](https://img.shields.io/badge/demo-marinesprofile.vercel.app-blue?logo=vercel&logoColor=white)](https://marinesprofile.vercel.app)  [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)  [![Last commit](https://img.shields.io/github/last-commit/noxarix/PROFITILO)](https://github.com/noxarix/PROFITILO/commits)  [![Repo size](https://img.shields.io/github/repo-size/noxarix/PROFITILO)](https://github.com/noxarix/PROFITILO)
 
-<p align="center">
-  <img src="assets/hero.png" alt="Marine logo — red neon star with MARINE text" width="64" style="vertical-align:middle;margin-right:12px;" />
-  <span style="font-size:64px;line-height:64px;font-weight:800;vertical-align:middle;">PROFITILO</span>
-</p>
+<div style="display:flex;align-items:center;gap:12px;">
+  <img src="assets/hero.png" alt="Marine logo — red neon star with MARINE text" width="64" />
+  <h1 style="margin:0;font-size:48px;">PROFITILO</h1>
+</div>
 
 ---
 
@@ -24,8 +22,6 @@ Quick links: [Website](https://marinesprofile.vercel.app) • [Repository](https
 <p align="center">
   <img src="assets/screenshot-1.png" alt="PROFITILO screenshot" width="900" style="border-radius:8px;box-shadow:0 8px 20px rgba(0,0,0,0.10)"/>
 </p>
-
-The README displays `assets/hero.png` (logo) and `assets/screenshot-1.png` (screenshot), which are included in the repository.
 
 ## 🤝 License
 
