@@ -74,7 +74,7 @@ This produces a bold headline where the word ᴄʜᴀᴛ is highlighted with the
 
 ## 🖼 Screenshots
 
-The README references `assets/hero.png` — I can commit the image you provided and save it as `assets/hero.png` so the README shows correctly. If you'd like me to add optimized WebP versions I can do that too.
+The README references `assets/hero.png` — the image is present in the repository and used above.
 
 ## 🔗 Connect with me
 
@@ -103,9 +103,3 @@ This repository is licensed under the MIT License — see the `LICENSE` file for
 3. Open http://localhost:3000
 
 ---
-
-If you want, I will now:
-- (A) Commit the image you attached as `assets/hero.png` and also create `assets/screenshot-1.png` from the same image (recommended), or
-- (B) Wait for you to upload different images / provide exact files.
-
-Reply with “A” to let me commit the image now, or “B” to upload later.
