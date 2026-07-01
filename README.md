@@ -1,89 +1,108 @@
 # PROFITILO
 
-A personal portfolio website showcasing skills, projects, achievements, and the journey of an aspiring student developer.
+[![Demo](https://img.shields.io/badge/demo-marinesprofile.vercel.app-blue?logo=vercel&logoColor=white)](https://marinesprofile.vercel.app)  [![License](https://img.shields.io/badge/license-Unspecified-lightgrey)](LICENSE)  [![Last commit](https://img.shields.io/github/last-commit/noxarix/PROFITILO)](https://github.com/noxarix/PROFITILO/commits)  [![Repo size](https://img.shields.io/github/repo-size/noxarix/PROFITILO)](https://github.com/noxarix/PROFITILO)
 
-Demo: https://marinesprofile.vercel.app
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/noxarix/PROFITILO/main/assets/hero.png" alt="PROFITILO screenshot" width="900" />
+</p>
 
 ---
 
-## Overview
+A modern, stylish personal portfolio to showcase skills, projects, achievements, and the journey of an aspiring student developer.
 
-PROFITILO is a clean, responsive portfolio website intended to present projects, technical skills, experiences, and contact information in a compact and attractive way. It can be used as a personal site for students, new graduates, or early-career developers who want a simple static site to share their work.
+Quick links: [Website](https://marinesprofile.vercel.app) • [Repository](https://github.com/noxarix/PROFITILO)
 
-## Features
+## ✨ Highlights
 
-- Landing / About section
-- Projects gallery with links and descriptions
-- Skills / Technologies section
-- Achievements and timeline
-- Contact form or contact links
-- Responsive design (mobile / tablet / desktop)
+- Clean, responsive single-page design with sections for About, Projects, Skills and Contact
+- Lightweight and fast — ideal for static-hosting (Vercel, Netlify, GitHub Pages)
+- Focused for students and early-career developers who want a polished online presence
 
-## Tech stack
+## 🚀 Demo
 
-- HTML, CSS, JavaScript
-- (Optional) Any static-site hosting such as Vercel, Netlify, GitHub Pages
+Open the live demo: https://marinesprofile.vercel.app
 
-## Project structure
+## 💡 Features
 
-Typical files you will find in this repository:
+- Hero/landing section with a short intro and CTA
+- Projects gallery with links, tech stack, and short descriptions
+- Skills grid and progress indicators
+- Achievements / timeline section
+- Contact links and optional contact form
+- Mobile-first responsive layout and accessible semantics
+
+## 🧰 Tech stack
+
+- HTML5, modern CSS (Flexbox / Grid), JavaScript
+- Optional tools: Vite / Next.js / TailwindCSS (if you convert)
+
+## 📁 Project structure (example)
 
 - index.html — main entry page
-- assets/ — images, icons, fonts
-- css/ — stylesheets
-- js/ — client-side JavaScript
+- assets/ — images, icons, screenshots
+- css/ — stylesheets (or tailwind config)
+- js/ — client-side JavaScript (lightweight interactions)
 
-Adjust paths and filenames if your project structure differs.
+## 📦 Local development
 
-## Local development
+Preview as a static site (no build required):
 
-To preview the site locally you can either open `index.html` in your browser or run a small static server.
+1. Clone the repo
 
-Using Python 3:
+   git clone https://github.com/noxarix/PROFITILO.git
 
-python -m http.server 3000
+2. Serve locally (Python):
 
-Then open http://localhost:3000 in your browser.
+   python -m http.server 3000
 
-Or using a lightweight Node server:
+   or (Node):
 
-npx http-server -p 3000
+   npx http-server -p 3000
 
-If the site uses a framework (Next.js, Gatsby, etc.), follow the framework-specific instructions in this repo (for example `npm install` then `npm run dev`).
+3. Open http://localhost:3000
 
-## Deployment
+If the repo uses a framework, run the framework-specific commands (e.g. `npm install` && `npm run dev`).
 
-This repository is easy to deploy to a static host. For Vercel:
+## 🔧 Customization & Styling tips
 
-1. Visit https://vercel.com and sign in.
-2. Import the GitHub repository `noxarix/PROFITILO`.
-3. Set the build settings if required (for static HTML no build command is necessary).
-4. Deploy — the site will be published on a vercel.app domain (or your custom domain).
+- Replace the hero image at `assets/hero.png` with a screenshot of your site (1200×600 recommended).
+- Tweak colors and fonts in `css/` (consider using Google Fonts + a variable-based color system).
+- Convert to a component-based framework (React / Next.js / SvelteKit) if you want dynamic sections or CMS integration.
 
-## Contributing
+## 🖼️ Screenshots
 
-This repo is a personal portfolio. If you want to reuse this template:
+<p align="center">
+  <img src="https://raw.githubusercontent.com/noxarix/PROFITILO/main/assets/screenshot-1.png" alt="Projects gallery" width="700" />
+</p>
 
-- Fork the repository
-- Customize the content in `index.html`, styles, and assets
-- Add or update projects and links
+*(If images appear broken, add site screenshots to `assets/` — I can add them for you if you upload the images.)*
 
-If you'd like me to add a CONTRIBUTING.md, templates, or CI for formatting, open an issue or send a PR.
+## 🤝 Contributing
 
+This repository is a personal template. To reuse it:
 
-## License
+- Fork the repo
+- Edit `index.html`, `css/`, and `assets/` with your content
+- Update links, projects and contact info
 
-This repository currently has no license specified. If you intend to share or reuse the project, add a LICENSE file (for example, MIT) to clarify permissions.
+Want me to add a CONTRIBUTING.md or an automated Prettier/ESLint CI? I can add that too.
 
-## Contact
+## 📜 License
+
+No license is specified. Add a LICENSE file (MIT, Apache-2.0, etc.) if you plan to share or reuse this template.
+
+## ✉️ Contact
 
 - GitHub: https://github.com/noxarix
+- Demo: https://marinesprofile.vercel.app
 
 ---
 
-If you'd like, I can:
-- Tailor this README to a specific framework used in the repo (Next.js, Vite, etc.)
-- Add badges (build, deploy, license)
-- Add a CONTRIBUTING.md or a LICENSE file
+Made with ❤️ — I updated the README to include badges, hero screenshots and a cleaner, stylish layout. If you'd like I can:
 
-Tell me which of these you'd like next and I'll add it.
+- Add real screenshots to assets/ (upload images or tell me URLs)
+- Add CI badges (Vercel/Netlify/GitHub Actions) after you set them up
+- Convert this README into a one-page website or add a CONTRIBUTING.md / LICENSE
+
+Tell me which of these you'd like next and I'll update the repo.
