@@ -1,8 +1,7 @@
-
-
 <div style="display:flex;align-items:center;gap:12px;">
   <img src="assets/hero.png" alt="Marine logo — red neon star with MARINE text" width="64" />
 </div>
+
 # PROFITILO
 ---
 
