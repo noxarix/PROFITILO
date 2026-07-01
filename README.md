@@ -1,3 +1,5 @@
+# PROFITILO
+
 [![Demo](https://img.shields.io/badge/demo-marinesprofile.vercel.app-blue?logo=vercel&logoColor=white)](https://marinesprofile.vercel.app)  [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)  [![Last commit](https://img.shields.io/github/last-commit/noxarix/PROFITILO)](https://github.com/noxarix/PROFITILO/commits)  [![Repo size](https://img.shields.io/github/repo-size/noxarix/PROFITILO)](https://github.com/noxarix/PROFITILO)
 
 <p align="center">
@@ -25,15 +27,6 @@ Quick links: [Website](https://marinesprofile.vercel.app) • [Repository](https
 
 The README displays `assets/hero.png` (logo) and `assets/screenshot-1.png` (screenshot), which are included in the repository.
 
-## 🔗 Connect with me
-
-<p align="center">
-  <a href="mailto:mrchikoo31@gmail.com"><img src="https://img.shields.io/badge/Email-mrchikoo31@gmail.com-D14836?logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://x.com/nox_shadowx" style="margin-left:8px"><img src="https://img.shields.io/badge/X-@nox_shadowx-1DA1F2?logo=twitter&logoColor=white" alt="X / Twitter"></a>
-  <a href="https://instagram.com/_nox_shadowx" style="margin-left:8px"><img src="https://img.shields.io/badge/Instagram-@_nox_shadowx-E1306C?logo=instagram&logoColor=white" alt="Instagram"></a>
-  <a href="https://t.me/nox_shadowx" style="margin-left:8px"><img src="https://img.shields.io/badge/Telegram-@nox_shadowx-26A5E4?logo=telegram&logoColor=white" alt="Telegram"></a>
-</p>
-
 ## 🤝 License
 
 This repository is licensed under the MIT License — see the `LICENSE` file for details.
@@ -48,3 +41,14 @@ This repository is licensed under the MIT License — see the `LICENSE` file for
    python -m http.server 3000
 
 3. Open http://localhost:3000
+
+---
+
+## 🔗 Connect with me
+
+<p align="center">
+  <a href="mailto:mrchikoo31@gmail.com"><img src="https://img.shields.io/badge/Email-mrchikoo31@gmail.com-D14836?logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://x.com/nox_shadowx" style="margin-left:8px"><img src="https://img.shields.io/badge/X-@nox_shadowx-1DA1F2?logo=twitter&logoColor=white" alt="X / Twitter"></a>
+  <a href="https://instagram.com/_nox_shadowx" style="margin-left:8px"><img src="https://img.shields.io/badge/Instagram-@_nox_shadowx-E1306C?logo=instagram&logoColor=white" alt="Instagram"></a>
+  <a href="https://t.me/nox_shadowx" style="margin-left:8px"><img src="https://img.shields.io/badge/Telegram-@nox_shadowx-26A5E4?logo=telegram&logoColor=white" alt="Telegram"></a>
+</p>
