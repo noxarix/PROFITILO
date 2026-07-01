@@ -3,7 +3,7 @@
 [![Demo](https://img.shields.io/badge/demo-marinesprofile.vercel.app-blue?logo=vercel&logoColor=white)](https://marinesprofile.vercel.app)  [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)  [![Last commit](https://img.shields.io/github/last-commit/noxarix/PROFITILO)](https://github.com/noxarix/PROFITILO/commits)  [![Repo size](https://img.shields.io/github/repo-size/noxarix/PROFITILO)](https://github.com/noxarix/PROFITILO)
 
 <p align="center">
-  <img src="assets/hero.png" alt="PROFITILO hero" width="900" style="border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,0.35)"/>
+  <img src="assets/hero.png" alt="Marine logo — red neon star with MARINE text" width="900" style="border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,0.35)"/>
 </p>
 
 ---
@@ -18,63 +18,13 @@ Quick links: [Website](https://marinesprofile.vercel.app) • [Repository](https
 - Lightweight and fast — ideal for static-hosting (Vercel, Netlify, GitHub Pages)
 - Student-focused with a bold, modern look
 
-## 🎨 "ᴄʜᴀᴛ" font-style & hero
+## ᴄʜᴀᴛ — hero heading
 
-I added a stylish display option for the heading using the fancy characters **ᴄʜᴀᴛ** (Unicode small-caps style). To get a polished look, include this CSS snippet in your stylesheet (e.g. `css/style.css`) and replace the hero image at `assets/hero.png` with the screenshot you uploaded.
-
-```css
-/* Fancy "ᴄʜᴀᴛ" heading style */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
-
-:root{
-  --accent: #b85b5b; /* warm red accent to match the hero */
-  --bg: #000;
-  --muted: #cfcfcf;
-}
-
-body{font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:var(--bg); color:#fff}
-.hero-title{font-weight:800; font-size:clamp(2rem,4vw,3.5rem); letter-spacing:0.02em}
-.hero-subtitle{font-weight:600; color:var(--accent)}
-
-/* special frame for the CHAT-styled word */
-.chat-badge{
-  display:inline-block;
-  font-variant:small-caps; /* fallback */
-  color:var(--accent);
-  text-shadow: 0 6px 18px rgba(184,91,91,0.25);
-  font-family: 'Poppins', sans-serif;
-  padding:0 0.25rem;
-  border-radius:6px;
-}
-
-/* rounded hero image frame */
-.hero-image{width:100%; max-width:900px; border-radius:50%; box-shadow: 0 20px 60px rgba(184,91,91,0.12); border:8px solid rgba(184,91,91,0.06)}
-
-/* button */
-.btn-primary{background:var(--accent); color:#fff; padding:0.85rem 1.4rem; border-radius:10px; border:none; font-weight:700}
-```
-
-And a small HTML snippet to use in `index.html`:
-
-```html
-<section class="hero" style="display:flex;align-items:center;gap:2rem;">
-  <img src="assets/hero.png" alt="Marine — hero" class="hero-image" />
-  <div>
-    <p class="hero-subtitle">Hey I'm <strong>Marine</strong></p>
-    <h1 class="hero-title">I'm a <span class="chat-badge">ᴄʜᴀᴛ</span> <span class="hero-accent">STUDENT</span></h1>
-    <p style="color:var(--muted);max-width:520px">I'm an aspiring student developer passionate about turning ideas into reality. I enjoy exploring new technologies, solving problems, and creating tools that make learning and connecting easier.</p>
-    <div style="margin-top:1.2rem">
-      <a class="btn-primary" href="#about">About Me</a>
-    </div>
-  </div>
-</section>
-```
-
-This produces a bold headline where the word ᴄʜᴀᴛ is highlighted with the accent color and a subtle glow — matching the dark/red theme in your screenshot.
+I'm a ᴄʜᴀᴛ STUDENT
 
 ## 🖼 Screenshots
 
-The README references `assets/hero.png` — the image is present in the repository and used above.
+The README uses `assets/hero.png` (logo / hero) and `assets/screenshot-1.png` (screenshot) to display visuals. Both images are included in the repository.
 
 ## 🔗 Connect with me
 
@@ -84,8 +34,6 @@ The README references `assets/hero.png` — the image is present in the reposito
   <a href="https://instagram.com/_nox_shadowx" style="margin-left:8px"><img src="https://img.shields.io/badge/Instagram-@_nox_shadowx-E1306C?logo=instagram&logoColor=white" alt="Instagram"></a>
   <a href="https://t.me/nox_shadowx" style="margin-left:8px"><img src="https://img.shields.io/badge/Telegram-@nox_shadowx-26A5E4?logo=telegram&logoColor=white" alt="Telegram"></a>
 </p>
-
-*(All usernames provided by the repository owner.)*
 
 ## 🤝 License
 
