@@ -28,7 +28,10 @@ Quick links: [Website](https://marinesprofile.vercel.app) • [Repository](https
 This repository is licensed under the MIT License — see the `LICENSE` file for details.
 
 <p align="center">
-  [![Demo](https://img.shields.io/badge/demo-marinesprofile.vercel.app-blue?logo=vercel&logoColor=white)](https://marinesprofile.vercel.app)  [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)  [![Last commit](https://img.shields.io/github/last-commit/noxarix/PROFITILO)](https://github.com/noxarix/PROFITILO/commits)  [![Repo size](https://img.shields.io/github/repo-size/noxarix/PROFITILO)](https://github.com/noxarix/PROFITILO)
+  <a href="https://marinesprofile.vercel.app"><img src="https://img.shields.io/badge/demo-marinesprofile.vercel.app-blue?logo=vercel&logoColor=white" alt="Demo"/></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="License"/></a>
+  <a href="https://github.com/noxarix/PROFITILO/commits"><img src="https://img.shields.io/github/last-commit/noxarix/PROFITILO" alt="Last commit"/></a>
+  <a href="https://github.com/noxarix/PROFITILO"><img src="https://img.shields.io/github/repo-size/noxarix/PROFITILO" alt="Repo size"/></a>
 </p>
 
 ## 📦 Local development
