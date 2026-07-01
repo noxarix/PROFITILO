@@ -4,11 +4,7 @@
 
 <p align="center">
   <img src="assets/hero.png" alt="Marine logo — red neon star with MARINE text" width="64" style="vertical-align:middle;margin-right:12px;" />
-  <span style="font-size:2.5rem;font-weight:800;vertical-align:middle;">PROFITILO</span>
-</p>
-
-<p align="center">
-  <img src="assets/screenshot-1.png" alt="PROFITILO screenshot" width="900" style="border-radius:8px;box-shadow:0 8px 20px rgba(0,0,0,0.10)"/>
+  <span style="font-size:64px;line-height:64px;font-weight:800;vertical-align:middle;">PROFITILO</span>
 </p>
 
 ---
@@ -24,6 +20,10 @@ Quick links: [Website](https://marinesprofile.vercel.app) • [Repository](https
 - Student-focused with a bold, modern look
 
 ## 🖼 Screenshots
+
+<p align="center">
+  <img src="assets/screenshot-1.png" alt="PROFITILO screenshot" width="900" style="border-radius:8px;box-shadow:0 8px 20px rgba(0,0,0,0.10)"/>
+</p>
 
 The README displays `assets/hero.png` (logo) and `assets/screenshot-1.png` (screenshot), which are included in the repository.
 
