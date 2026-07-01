@@ -3,7 +3,11 @@
 [![Demo](https://img.shields.io/badge/demo-marinesprofile.vercel.app-blue?logo=vercel&logoColor=white)](https://marinesprofile.vercel.app)  [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)  [![Last commit](https://img.shields.io/github/last-commit/noxarix/PROFITILO)](https://github.com/noxarix/PROFITILO/commits)  [![Repo size](https://img.shields.io/github/repo-size/noxarix/PROFITILO)](https://github.com/noxarix/PROFITILO)
 
 <p align="center">
-  <img src="assets/hero.png" alt="Marine logo — red neon star with MARINE text" width="900" style="border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,0.35)"/>
+  <img src="assets/hero.png" alt="Marine logo — red neon star with MARINE text" width="800" style="border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,0.35)"/>
+</p>
+
+<p align="center">
+  <img src="assets/screenshot-1.png" alt="PROFITILO screenshot" width="700" style="border-radius:8px;box-shadow:0 8px 20px rgba(0,0,0,0.10)"/>
 </p>
 
 ---
@@ -18,13 +22,9 @@ Quick links: [Website](https://marinesprofile.vercel.app) • [Repository](https
 - Lightweight and fast — ideal for static-hosting (Vercel, Netlify, GitHub Pages)
 - Student-focused with a bold, modern look
 
-## ᴄʜᴀᴛ — hero heading
-
-I'm a ᴄʜᴀᴛ STUDENT
-
 ## 🖼 Screenshots
 
-The README uses `assets/hero.png` (logo / hero) and `assets/screenshot-1.png` (screenshot) to display visuals. Both images are included in the repository.
+The README displays `assets/hero.png` (logo/hero) and `assets/screenshot-1.png` (screenshot), which are included in the repository.
 
 ## 🔗 Connect with me
 
